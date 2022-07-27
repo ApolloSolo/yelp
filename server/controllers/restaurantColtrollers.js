@@ -5,6 +5,10 @@ const restaurantControllers = {
 
     async getRestaurant(req, res) {
         res.send("One Restaurant")
+    },
+
+    async addRestaurant(req, res) {
+        res.send("Add a restaurant");
     }
 }
 
